@@ -60,7 +60,7 @@ int main(void)
 				else
 				{
 					system("cls");
-					printf("! Error, there are no employees in the system !");
+					printf("! Error, there are no books in the system !");
 				}
 				break;
 
@@ -77,7 +77,7 @@ int main(void)
 				else
 				{
 					system("cls");
-					printf("! Error, there are no employees in the system !");
+					printf("! Error, there are no books in the system !");
 				}
 				break;
 
@@ -99,7 +99,7 @@ int main(void)
 				else
 				{
 					system("cls");
-					printf("! Error, there are no employees in the system !");
+					printf("! Error, there are no books in the system !");
 				}
 				break;
 
@@ -122,7 +122,7 @@ int main(void)
 				else
 				{
 					system("cls");
-					printf("! Error, there are no employees in the system !");
+					printf("! Error, there are no books in the system !");
 				}
 				break;
 

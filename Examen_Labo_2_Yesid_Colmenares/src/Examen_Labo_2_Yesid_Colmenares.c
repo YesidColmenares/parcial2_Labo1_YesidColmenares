@@ -51,7 +51,7 @@ int main(void)
 				if (!ll_isEmpty(listBooks))
 				{
 					system("cls");
-					if (controller_SortBook(listBooks) != TRUE)
+					if (controller_SortBook(listBooks) == FALSE)
 					{
 						system("cls");
 						printf("! Error, linked list is NULL !");
@@ -85,15 +85,16 @@ int main(void)
 				if (!ll_isEmpty(listBooks))
 				{
 					system("cls");
-					if (controller_Discounts(listBooks) != TRUE)
+					if (controller_Discounts(listBooks) == TRUE)
 					{
 						system("cls");
-						printf("! Error, linked list is NULL !");
+						printf("Discounts applied successfully");
+
 					}
 					else
 					{
 						system("cls");
-						printf("Discounts applied successfully");
+						printf("! Error, linked list is NULL !");
 					}
 				}
 				else

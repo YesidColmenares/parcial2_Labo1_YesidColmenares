@@ -38,7 +38,7 @@ int controller_SortBook(LinkedList *listBooks)
 		if (ll_sort(auxListBook, book_SortByAuthor, 0) == TRUE)
 		{
 			system("cls");
-			controller_ListBook(auxListBook);
+			returnValue = controller_ListBook(auxListBook);
 		}
 		ll_deleteLinkedList(auxListBook);
 	}
